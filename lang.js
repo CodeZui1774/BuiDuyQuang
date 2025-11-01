@@ -26,7 +26,7 @@ const gif = document.getElementById('gif');
     "Thật sự không iu luôn hả?",
     "Toi buồn quá đi...",
     "Tram dễ thương mà, iu toi đi!",
-    "Tại sao Tram lại không toi anh?",
+    "Tại sao Tram lại không toi ?",
     "Không iu là toi khóc đó",
     "Tram chắc chắn chưa?",
     "Năn nỉ đó đồng ý đi",
