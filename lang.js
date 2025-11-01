@@ -24,16 +24,16 @@ const gif = document.getElementById('gif');
   let questions = [
     "Suy nghĩ lại chưa nè?",
     "Thật sự không iu luôn hả?",
-    "Anh buồn quá đi...",
-    "Em dễ thương mà, iu anh đi!",
-    "Tại sao em lại không iu anh?",
-    "Không iu là anh khóc đó",
-    "Em chắc chắn chưa?",
+    "Toi buồn quá đi...",
+    "Tram dễ thương mà, iu toi đi!",
+    "Tại sao Tram lại không toi anh?",
+    "Không iu là toi khóc đó",
+    "Tram chắc chắn chưa?",
     "Năn nỉ đó đồng ý đi",
     "Thui mà đồng ý đuy...",
-    "Anh không tốt ở đâu sao :((",
-    "Yêu anh chở đi chơi nè...",
-    "Một lần nữa, em có iu anh không?"
+    "Toi không tốt ở đâu sao :((",
+    "Yêu Toi chở đi chơi nè...",
+    "Một lần nữa, Tram có iu toi không?"
   ];
   
 
@@ -52,7 +52,7 @@ const gif = document.getElementById('gif');
   function resetPage() {
   noCount = 0;
   yesBtnSize = 18;
-  question.textContent = "Em có iu anh hông ?";
+  question.textContent = "Tram có toi anh hông ?";
   gif.src = firstGif;
   // Xử lý fallback nếu gif không load được
   gif.onerror = function() {
@@ -63,7 +63,7 @@ const gif = document.getElementById('gif');
 
   function yesClick(yesBtn) {
     gif.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm56dWNmY2ZrMHA4cHRta3R0cXBhN2l2dHY4cGw5ZnlwMnBzeWpjZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QEN54dmAJuTF0wBWXz/giphy.gif";
-    question.textContent = "Anh cũng yêu em nhìu moa moa💗";
+    question.textContent = "Toi cũng yêu Tram nhìu moa moa💗";
     btnContainer.innerHTML = "";
   }
 
