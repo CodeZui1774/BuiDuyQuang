@@ -52,7 +52,7 @@ const gif = document.getElementById('gif');
   function resetPage() {
   noCount = 0;
   yesBtnSize = 18;
-  question.textContent = "Tram có toi anh hông ?";
+  question.textContent = "Tram có iu toi hông ?";
   gif.src = firstGif;
   // Xử lý fallback nếu gif không load được
   gif.onerror = function() {
